@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white);
+    font-family: Arial, Helvetica, "Liberation Sans", Roboto, sans-serif;
+    margin:0;
+    font-size: 18px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+
+    box-sizing: inherit;
+
+}
+
+.input_completo{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(150, 139, 197);
+    height: 5rem;
+    margin: 0 auto;
+    /*background-image: url(hbo.png);*/
+    /*background-repeat: no-repeat;*/
+    /* background-size: 100px; */
+    /* background-position: center; */
+    padding: 0;
+    margin: 0;
+}
+
+.header img{
+    width: 5em;
+}
+
+.label_input{
+    position: absolute;
+    color: #8c8c8c;
+}
+
+.input{
+    height: 2.5rem;
+    width: 15rem;
+}
+
+
+.sexo{
+    display: block;
+    justify-content: space-around;
+
+}
+
+
+/*.checkbox{
+    display:flex;
+    gap: 10px;
+    
+    
+}*/
+
+

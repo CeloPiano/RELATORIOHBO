@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Registre-se/HBO+</title>
+        <link rel= "icon" href="../Aula1 HTML/hbo_go.png">
+        <link rel = "stylesheet"  href="estiloexercicioaula1.css" >
+    </head>
+
+    <body>
+        
+        <div class="header">
+            <img src="../Aula1 HTML/hbo.png" alt="Logo HBO">
+        </div>
+        
+        <form>
+
+            <h1>Registre suas informações pessoais:</h1><br>
+            
+            <div class="input_completo">
+                <label for="nomecompleto"class="label_input" >Nome Completo</label>
+                <input class="input" id="nomecompleto"  required > 
+            </div> <br>
+
+            <div class="input_completo">
+                <label >Mês de Nascimento:</label>
+                <input class="input_nascimento" type= "date">
+                
+            </div> <br>
+            
+            <div class="input_completo">
+                <label for="email" class="label_input">Email</label>
+                <input class="input" type= "email" id= "email"  required>
+                
+            </div> <br>
+            
+            <div class="input_completo">
+                <label for="remail" class="label_input">Repita o email</label>
+                <input class="input" type= "email" id="remail"  required>
+            </div> <br>
+            
+            <div class="input_completo">
+                <label for="senha" class="label_input">Senha</label>
+                <input class="input" type="password" id="senha"  required>
+            </div> <br>
+
+            <div class="input_completo">
+                <label for="resenha" class="label_input">Repita a Senha</label>
+                <input class="input" type="password" id="resenha"  required>
+            </div> <br>
+
+            <div class="input_completo">
+                <div class="sexo"> 
+                    <label>Sexo:</label><br><br>
+                    
+                    <label for= "sexo1">Masculino</label>
+                    <input type= "radio" id="sexo2" name= "sexo">
+                    <br><br>
+                    <label for= "sexo2">Feminino</label>
+                    <input type= "radio" id= "sexo3" name= "sexo">
+                    <br><br>
+                    <label for= "sexo3">Outro</label>
+                    <input type= "radio" id= "sexo3" name= "sexo">
+                </div>
+            </div> <br>
+
+            <div class="input_completo">
+                
+                <div class="checkbox">
+                    
+                    <label>Selecione os assuntos nos quais você gostaria de ser contatado:</label> <br> <br>
+                    <div class="checkbox_part">
+                        <input type="checkbox" name="destaquedomes">
+                        <label for="destaquedomes"> Destaques do mês</label>
+                    </div>
+                    <div class="checkbox_part">
+                        <input type="checkbox" name="participacaoempesquisas">
+                        <label for="participacaoempesquisas"> Participação em pesquisas</label>
+                    </div>    
+                    <div class="checkbox_part">    
+                        <input type="checkbox" name="programacao">
+                        <label for="programacao">Programação</label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <div class="input_completo">
+                <input type="submit" value="Cadastrar">
+            </div>
+
+
+        
+        </form>
+
+    </body>
+
+
+
+</html>
